@@ -1,8 +1,8 @@
 package by.vitikova.logger.proxy;
 
-import by.vitikova.logger.proxy.service.proxy.CatProxy;
 import by.vitikova.logger.proxy.service.CatVoice;
 import by.vitikova.logger.proxy.service.impl.CatVoiceImp;
+import by.vitikova.logger.proxy.service.proxy.CatProxy;
 
 public class Main {
 

@@ -31,13 +31,13 @@
 
 ```java
 public static void main(String[]args){
-    CatVoice example = new CatVoiceImp();
-    CatVoice loggingProxy = new CatProxy(example);
+        CatVoice example=new CatVoiceImp();
+        CatVoice loggingProxy=new CatProxy(example);
 
-    System.out.println(loggingProxy.getMay());
-    System.out.println(loggingProxy.getHissing());
-    System.out.println(loggingProxy.getGrowl());
-}
+        System.out.println(loggingProxy.getMay());
+        System.out.println(loggingProxy.getHissing());
+        System.out.println(loggingProxy.getGrowl());
+        }
 ```
 
 ## Результат
